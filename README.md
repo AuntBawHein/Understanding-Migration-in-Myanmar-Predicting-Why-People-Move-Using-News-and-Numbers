@@ -177,7 +177,8 @@ is_border_area     0
 dtype: int64
 ```
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/3b3fa95d-b58d-41e1-a63f-3448739dc5bd)
+
 
 ---
 
@@ -405,9 +406,9 @@ health       1475
 Name: count, dtype: int64
 ```
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/c4aa1c65-55c7-4ac9-b8d6-c4b604d93add)
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/03edd523-a64b-4e73-b807-d4b8271d39f1)
 
 ---
 
@@ -1162,7 +1163,7 @@ Epoch 22/100
 Final validation accuracy: **0.6285**
 ```
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/7174aed8-e649-4cde-890a-2e9003a0c22a)
 
 ---
 
@@ -1365,9 +1366,9 @@ plt.show()
 Final prediction accuracy (manual): 0.6285 (62.85%)
 ```
 
-![alt text](5639f1c0-cc49-4853-9858-283c8e40d722.png)
+![image](https://github.com/user-attachments/assets/03b125c8-415a-4e94-ad74-450ec6f68a6c)
 
-![alt text](69f00888-c383-4d27-a9bf-61ea88b47a46.png)
+![image](https://github.com/user-attachments/assets/53837294-bbeb-4970-8cff-f55814f4d8b2)
 
 ---
 
