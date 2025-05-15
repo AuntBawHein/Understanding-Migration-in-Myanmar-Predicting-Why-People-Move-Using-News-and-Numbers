@@ -1,6 +1,58 @@
 # Understanding-Migration-in-Myanmar-Predicting-Why-People-Move-Using-News-and-Numbers
 To learn from **news headlines** and **data numbers** to guess the reason for migration.
 
+---
+
+### **1. Introduction**
+
+I’ve always been curious about why people leave their homes and move to other places — especially here in Myanmar. I’ve heard real stories about families having to move because of things like war, floods, losing their jobs, or getting sick. These situations made me want to learn more.
+
+Then I realized that the news is full of articles about these events. That gave me an idea: what if a computer could read these headlines and help us figure out **why** people are moving?
+
+So I started this project — where I teach a computer to read news headlines and look at number data to guess the reason people are moving. If it works well, it could help people and organizations **respond faster** and **make better decisions** to support those in need.
+
+---
+
+### **2. What Is the Goal of This Project?**
+
+Here’s what I’m trying to do:
+
+* I want to build a smart machine learning model that can read short news headlines and look at extra information like dates, population, and risk scores — then guess **why people moved**.
+* The reasons I’m focusing on are:
+
+  * Conflict
+  * Flood
+  * Job-related issues
+  * Health problems
+  * Education
+* I’m combining **text data** (like news headlines) with **number data** (like how many people moved or what season it was).
+* My goal is to spot patterns — like which **reasons happen the most** and during which **months or seasons** people are more likely to move.
+
+---
+
+### **3. Why I Chose This Project**
+
+Here’s why this project matters to me:
+
+* In Myanmar, a lot of people have been forced to move, and I’ve always wanted to understand the deeper reasons behind it.
+* There are so many news headlines every day — it’s too much for one person to read or keep track of. But a computer might be able to help by finding useful patterns in those headlines.
+* I believe that if we combine news and real data, a smart model can actually **learn to predict** the reasons behind migration.
+* If this project works, it could help **NGOs, governments, and local teams** get prepared earlier and send the **right help at the right time**.
+
+---
+
+### **4. What Tools Did I Use for This Project?**
+
+To build this smart system, I used a few important tools:
+
+1. **TensorFlow** – This is what I used to build and train the deep learning model. It’s the “brain” of the project.
+2. **Matplotlib** – This helped me make charts and graphs so I could see patterns clearly.
+3. **spaCy** – I used this to clean and break down the news headlines into simple words that the computer could understand.
+4. **Pandas** – This helped me clean and manipulate all my data into neat tables and work with it easily.
+5. **Seaborn** – I used this to make beautiful, easy-to-read graphs to explore and explain my data.
+6. **NumPy** – I used this to handle numbers and make sure everything was in the right format for the model to learn from.
+
+---
 
 # Understanding Migration in Myanmar – Predicting Why People Move Using News and Numbers
 
