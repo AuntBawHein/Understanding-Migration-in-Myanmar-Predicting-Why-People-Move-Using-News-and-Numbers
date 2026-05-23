@@ -365,21 +365,21 @@ I want to learn more about the data by making charts.
 
 ### What is Seaborn?
 
-\= Seaborn is a Python tool that helps me draw **pretty and colorful charts** using my data.
+= Seaborn is a Python tool that helps me draw **pretty and colorful charts** using my data.
 
 ### Why do I have to use Seaborn for this step?
 
-\= I use Seaborn because it helps me **easily compare data** in a way that looks nice and is easy to understand (like bar charts and line charts).
+= I use Seaborn because it helps me **easily compare data** in a way that looks nice and is easy to understand (like bar charts and line charts).
 
 ---
 
 ### What is Matplotlib?
 
-\= Matplotlib is a tool in Python that lets me **customize and control how my charts look** (like adding labels, changing sizes, or rotating words).
+= Matplotlib is a tool in Python that lets me **customize and control how my charts look** (like adding labels, changing sizes, or rotating words).
 
 ### Why do I have to use Matplotlib for this step?
 
-\= I use Matplotlib because it gives me **full control over the design** of the chart—like setting titles, axis labels, and making it easier for others to read what I see.
+= I use Matplotlib because it gives me **full control over the design** of the chart—like setting titles, axis labels, and making it easier for others to read what I see.
 
 ---
 ```
@@ -495,13 +495,13 @@ I will use a helpful tool called **spaCy** to clean the news headlines so that t
 
 ### **What is spaCy?**
 
-\= spaCy is a tool that I use to help me read and clean English sentences. It turns long or messy text into neat words that the computer can understand.
+= spaCy is a tool that I use to help me read and clean English sentences. It turns long or messy text into neat words that the computer can understand.
 
 ---
 
 ### **Why do I have to use spaCy?**
 
-\= I use spaCy because it helps me take messy sentences and turn them into simple, clear words. This makes it easier for the machine learning model to learn and make good predictions.
+= I use spaCy because it helps me take messy sentences and turn them into simple, clear words. This makes it easier for the machine learning model to learn and make good predictions.
 
 ---
 
@@ -513,7 +513,7 @@ I will use a helpful tool called **spaCy** to clean the news headlines so that t
 
 ### **Why do I have to use Pandas for this step?**
 
-\= I use Pandas because it helps me apply my text-cleaning work to every row in my table without doing it one by one.
+= I use Pandas because it helps me apply my text-cleaning work to every row in my table without doing it one by one.
 
 ---
 ```
@@ -622,19 +622,19 @@ I want my model to understand both the **news headlines** (words) and the **nume
 
 ### Why do I have to use Pandas for this step?
 
-\= I use Pandas to **combine my cleaned text with important numbers** in one place, so I can use it for machine learning later. It makes it easy to manipulate all the data into one final table.
+= I use Pandas to **combine my cleaned text with important numbers** in one place, so I can use it for machine learning later. It makes it easy to manipulate all the data into one final table.
 
 ---
 
 ### What is spaCy?
 
-\= spaCy is a tool that I use to **understand and clean up English sentences**. It helps me break each sentence into meaningful words.
+= spaCy is a tool that I use to **understand and clean up English sentences**. It helps me break each sentence into meaningful words.
 
 ---
 
 ### Why do I have to use spaCy for this step?
 
-\= I use spaCy because it **cleans the headlines** before I combine them with the numbers. Without spaCy, the model might get confused by uncleaned text or repeated words.
+= I use spaCy because it **cleans the headlines** before I combine them with the numbers. Without spaCy, the model might get confused by uncleaned text or repeated words.
 
 ---
 ```
@@ -740,42 +740,37 @@ Now, I will build a smart program (a deep learning model) that can **learn patte
 
 #### **What is TensorFlow?**
 
-\=
+=
 I use **TensorFlow** to build the brain of my model.  
 It's a powerful tool that helps me create and train machine learning models.
 
 #### **Why do I use TensorFlow for this step?**
 
-\=
-Because TensorFlow helps me connect all the parts of the model and train it to learn from data.  
+= Because TensorFlow helps me connect all the parts of the model and train it to learn from data.  
 Without TensorFlow, I wouldn't be able to build the model easily or make it learn properly.
 
 ---
 
 #### **What is Pandas?**
 
-\=
-I use **Pandas** to organize and clean my data.  
+= I use **Pandas** to organize and clean my data.  
 It helps me work with tables in Python.
 
 #### **Why do I use Pandas for this step?**
 
-\=
-Because I need clean and structured data to teach my model.  
+= Because I need clean and structured data to teach my model.  
 Pandas helps me prepare that data in the right format.
 
 ---
 
 #### **What is NumPy?**
 
-\=
-I use **NumPy** to work with numbers in Python.  
+= I use **NumPy** to work with numbers in Python.  
 It makes working with lists, arrays, and math easier and faster.
 
 #### **Why do I use NumPy for this step?**
 
-\=
-Because my model needs the input data (like numbers) to be in arrays.  
+= Because my model needs the input data (like numbers) to be in arrays.  
 NumPy helps me convert the data into the right shape the model understands.
 
 ---
