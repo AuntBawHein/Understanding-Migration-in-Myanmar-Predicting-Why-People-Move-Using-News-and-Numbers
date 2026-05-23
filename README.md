@@ -775,10 +775,6 @@ NumPy helps me convert the data into the right shape the model understands.
 
 ---
 ```
-
-Code 
-
-```python
 # I import TensorFlow so I can build and train a deep learning model
 import tensorflow as tf
 
@@ -875,7 +871,7 @@ model.fit(
 # I evaluate the model
 final_results = model.evaluate([val_text, number_data[split_index:]], labels[split_index:])
 print("Final validation accuracy: ", final_results[1])
-```
+
 
 ### Output:
 
