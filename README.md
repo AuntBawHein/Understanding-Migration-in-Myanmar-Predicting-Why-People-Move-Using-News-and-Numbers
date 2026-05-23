@@ -109,9 +109,6 @@ I will load and look at my dataset closely to understand what kind of data I hav
 ---
 ```
 
-Code 
-
-```python
 # I start by importing a tool called pandas, which helps me work with tables of data
 import pandas as pd 
 
@@ -166,6 +163,7 @@ plt.tight_layout()
 
 # I use this to show the final chart
 plt.show()
+
 ```
 
 #### Output:
@@ -272,9 +270,6 @@ I will clean the data so my model doesn't get confused.
 ---
 ```
 
-Code 
-
-```python
 # I import pandas, a tool that helps me work with tables of data
 import pandas as pd 
 
@@ -303,6 +298,7 @@ df = df[df['migration_count'] > 0]
 
 # I reset the row numbers (index) so they stay in order after removing rows
 df = df.reset_index(drop=True) 
+
 ```
 
 
@@ -384,9 +380,6 @@ I want to learn more about the data by making charts.
 ---
 ```
 
-Code 
-
-```python
 # I import Seaborn to help me make beautiful charts easily
 import seaborn as sns 
 
@@ -442,6 +435,7 @@ plt.xticks(                                   # I change the x-axis labels from 
  
 plt.tight_layout()                            # I prevent any overlapping text
 plt.show()                                    # I display the final chart
+
 ```
 
 
@@ -518,9 +512,7 @@ I will use a helpful tool called **spaCy** to clean the news headlines so that t
 ---
 ```
 
-Code 
 
-```python
 # I use pandas to help me open and work with table data like CSV files
 import pandas as pd
 
@@ -565,6 +557,7 @@ df['cleaned_headline'] = df['headline'].apply(clean_text)
 
 # I print out the original and cleaned version of the first 10 headlines to see the result
 df[['headline', 'cleaned_headline']].head(10)
+
 ```
 
 ### **Output**:
@@ -639,9 +632,6 @@ I want my model to understand both the **news headlines** (words) and the **nume
 ---
 ```
 
-Code 
-
-```python
 # I use pandas to help me read and work with my CSV file (which looks like a table)
 import pandas as pd
 
@@ -676,7 +666,7 @@ def clean_text(text):
             seen.add(token)
 
     # I join all the clean words back into one sentence
-    return " ".join(unique_tokens)
+    return " ".join(unique_tokens) 
 
 # I load my dataset from the CSV file so I can work with it
 df = pd.read_csv("why_people_move_myanmar.csv") 
@@ -987,9 +977,6 @@ Charts make it easier to understand what’s going on inside the model.
 ---
 ```
 
-Code 
-
-```python
 # I import TensorFlow so I can build and train a deep learning model
 # TensorFlow lets me create layers, learn from data, and make predictions
 import tensorflow as tf
@@ -1146,7 +1133,7 @@ plt.legend()
 
 plt.tight_layout()  # I make sure the charts don’t overlap
 plt.show()  # I display both charts
-```
+`
 
 ### Output
 
@@ -1272,9 +1259,6 @@ Seaborn makes the bars and colors, but Matplotlib lets me **add titles, labels, 
 ---
 ```
 
-Code 
-
-```python
 # I import pandas so I can clean and work with data in tables
 # For example, I use DataFrames to compare true and predicted reasons
 import pandas as pd  
